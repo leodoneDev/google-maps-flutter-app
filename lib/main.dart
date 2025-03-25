@@ -7,6 +7,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,10 +20,12 @@ class MyApp extends StatelessWidget {
 }
 
 class MapScreen extends StatelessWidget {
+  const MapScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('My OpenStreetMap Example')),
+      appBar: AppBar(title: Text('Google Maps Example')),
       body: FlutterMap(
         options: MapOptions(
           initialCenter: LatLng(
