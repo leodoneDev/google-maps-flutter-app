@@ -25,10 +25,10 @@ class MapScreen extends StatelessWidget {
       body: FlutterMap(
         options: MapOptions(
           initialCenter: LatLng(
-            51.509364,
-            -0.128928,
+            17.9696,
+            102.6133,
           ), // Center the map over London
-          initialZoom: 9.2,
+          initialZoom: 13.0,
         ),
         children: [
           // Changed 'layers' to 'children'
