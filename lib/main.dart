@@ -21,7 +21,7 @@ class MapScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('OpenStreetMap Example')),
+      appBar: AppBar(title: Text('My OpenStreetMap Example')),
       body: FlutterMap(
         options: MapOptions(
           initialCenter: LatLng(
