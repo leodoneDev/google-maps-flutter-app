@@ -25,7 +25,7 @@ class MapScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Google Maps Example')),
+      appBar: AppBar(title: Text('My Google Maps Example')),
       body: FlutterMap(
         options: MapOptions(
           initialCenter: LatLng(
