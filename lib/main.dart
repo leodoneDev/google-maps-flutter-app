@@ -38,11 +38,11 @@ class _MapScreenState extends State<MapScreen> {
     _mapController = MapController();
     _determinePosition();
   }
-  123
+  
   Future<void> _determinePosition() async {
     bool serviceEnabled;
     LocationPermission permission;
-
+123
     serviceEnabled = await Geolocator.isLocationServiceEnabled();
     if (!serviceEnabled) {
       if (mounted) {
