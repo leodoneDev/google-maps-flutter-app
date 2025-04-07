@@ -38,7 +38,7 @@ class _MapScreenState extends State<MapScreen> {
     _mapController = MapController();
     _determinePosition();
   }
-  1234423
+  123
   Future<void> _determinePosition() async {
     bool serviceEnabled;
     LocationPermission permission;
